@@ -8,18 +8,14 @@
 }
 
 .info-game {
-  max-width: 500px;
-  max-height: 500px;
   text-align: center;
-  margin-left: 1000px;
-  margin-bottom: 200px;
   color: white;
 }
 
 .carousel-my {
   max-width: 700px;
   max-height: 700px;
-  margin-left: 900px;
+  margin-left: 300px;
 }
 
 body {
@@ -33,7 +29,6 @@ body {
   position: relative;
   padding: 5px 0;
   transition: color 0.3s ease;
-  margin-left: 1160px;
 }
 
 .a:hover {
@@ -53,4 +48,16 @@ body {
 
 .a:hover::after {
   width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  .a {
+    margin-left: 500px;
+  }
+  .carousel-my {
+    margin-left: 700px;
+  }
+  .info-game {
+    margin-left: 500px;
+  }
 }/*# sourceMappingURL=main.css.map */
