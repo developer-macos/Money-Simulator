@@ -27,8 +27,8 @@ body {
   text-decoration: none;
   font-size: 24px;
   position: relative;
-  padding: 5px 0;
   transition: color 0.3s ease;
+  text-align: center;
 }
 
 .a:hover {
