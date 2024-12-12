@@ -15,7 +15,7 @@
 .carousel-my {
   max-width: 700px;
   max-height: 700px;
-  margin-left: 300px;
+  margin-left: 320px;
 }
 
 body {
@@ -73,4 +73,26 @@ body {
   text-align: center;
   font-size: 60px;
   margin-top: 0px;
+}
+
+.countdown-section {
+  max-width: 500px;
+  background-color: #5f6a6a;
+  border-radius: 10px;
+  align-items: center;
+  font-family: "Noto Sans", sans-serif;
+  color: white;
+}
+
+.update-section-first {
+  max-width: 350px;
+  margin-bottom: -290px;
+  margin-left: -15px;
+  text-align: center;
+}
+
+.update-section-h1 {
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
 }/*# sourceMappingURL=main.css.map */
